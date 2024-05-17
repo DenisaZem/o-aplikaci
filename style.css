@@ -124,28 +124,34 @@ main {
 
 /* About Us */
 
-.AboutUs{
-
+.about-us {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
-  
 }
 
-.AboutUs__medailonky{
+.about-us--medailonky {
   display: flex;
+  background-color: #668F80;
 }
 
-.AboutUs__title
- {
-  width: 300px;
-  height: 400px;
+.about-us--title {
   border: dotted black 1px;
   margin: 10px;
 }
 
+.about-us--title--name {
+  text-align: center;
+  font-family: Meow Script;
+  font-size: 2.5rem;
+  color: #4A6670;
+}
+
+.about-us--title--img {
+  width: 100%;
+}
 
 /* About Project */
 
