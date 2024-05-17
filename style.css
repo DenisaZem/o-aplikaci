@@ -8,7 +8,33 @@ html {
 }
 
 .container {
-  max-width: 20rem;
+  /* max-width: 40rem;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
+}
+
+h1 {
+  text-align: center;
+  font-family: Meow Script;
+  font-size: 50px
+  ;
+}
+
+.container__menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container__menu--aboutUs,
+.container__menu--aboutProject,
+span {
+  margin: 20px;
+  font-size: 40px;
+}
+
+.container__menu--aboutUs a,
+.container__menu--aboutProject a {
+  text-decoration: none;
 }
