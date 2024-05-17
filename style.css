@@ -38,3 +38,43 @@ span {
 .container__menu--aboutProject a {
   text-decoration: none;
 }
+
+/* About Us */
+
+.AboutUs{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.AboutUs__medailonky{
+  display: flex;
+}
+
+.AboutUs__title
+ {
+  width: 300px;
+  height: 400px;
+  border: dotted black 1px;
+  margin: 10px;
+}
+
+
+/* About Project */
+
+.AboutProject{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.AboutProject__title {
+  width: 300px;
+  height: 400px;
+  border: dotted black 1px;
+}
