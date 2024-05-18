@@ -1,5 +1,7 @@
 /* Používáme intuitivní výpočet rozměrů prvků. */
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -87,7 +89,7 @@ main {
   font-weight: bold;
 }
 
-.container__menu{
+.container__menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,17 +131,24 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* padding: 20px; */
 }
 
 .about-us--medailonky {
   display: flex;
+  justify-content: center;
   background-color: #668F80;
 }
 
 .about-us--title {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border: dotted black 1px;
   margin: 10px;
+  text-align: justify;
+  padding: 10px;
 }
 
 .about-us--title--name {
@@ -155,7 +164,7 @@ main {
 
 /* About Project */
 
-.AboutProject{
+.AboutProject {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -163,17 +172,35 @@ main {
 }
 
 .AboutProject__title {
-  width: 300px;
-  border: dotted black 1px;
+  max-width: 800px;
+  /* border: dotted black 1px; */
 }
 
-.about-project--title--name {
+.about-project__container1,
+.about-project__container2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #668F80;
+}
+
+.about-project--name {
+  background-color: #A0AF84;
+  width: 100%;
   text-align: center;
-  font-size: 2.5rem;
-  color: #4A6670;
+  font-size: 4.5rem;
+  color: #472836;
   font-family: Meow Script;
 }
 
-.about__project--img {
-  width: 100%;
+.about__project--zarovkaImg,
+.about__project--noteImg {
+  width: 30%;
+}
+
+.about__project--title {
+  margin: 5px;
+  width: 50%;
+  height: 50%;
+  text-align: justify;
 }
