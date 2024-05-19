@@ -113,7 +113,7 @@ main {
   color: #320C40;
 }
 
-.container__menu--aboutProject {
+.container__menu--aboutUs {
   background-color: #668F80;
 }
 
@@ -143,9 +143,17 @@ main {
 }
 
 .about-us--title--name {
-  font-family: Meow Script;
-  font-size: 2.5rem;
-  color: #4A6670;
+  /* font-family: Meow Script; */
+  font-size: 2rem;
+  color: #320C40;
+}
+
+.about-us--title--name__sarka {
+  color: #4a6670;
+}
+
+.about-us--title--name__deni {
+  color: #c3b59f;
 }
 
 .about-us--title--img {
@@ -160,6 +168,11 @@ main {
 .about-us--title--sarka {
   text-align: left;
   background-color: #a0af84;
+  border-bottom: 100px solid #668f80;
+}
+
+.about-us--title--paragraph {
+  color: #320C40;
 }
 
 
