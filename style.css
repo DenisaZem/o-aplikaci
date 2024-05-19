@@ -41,6 +41,10 @@ body {
   color: #4A6670; 
 }
 
+.menu--item a {
+  color: #4A6670; 
+}
+
 .menu--item:visited {
   color: #4A6670;
 }
