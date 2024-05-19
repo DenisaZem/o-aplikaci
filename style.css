@@ -37,7 +37,11 @@ body {
 }
 
 .menu--item {
-  text-decoration: none;
+  text-decoration: none; 
+}
+
+.menu--item a {
+  color: #4A6670; 
 }
 
 .menu--item:visited {
