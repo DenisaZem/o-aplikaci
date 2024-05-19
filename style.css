@@ -131,36 +131,37 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.about-us--medailonky {
-  display: flex;
-  justify-content: center;
-  background-color: #668F80;
+  margin: 10px auto 0 auto;
 }
 
 .about-us--title {
-  width: 20%;
+  width: 95%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border: dotted black 1px;
-  margin: 10px;
-  text-align: justify;
-  padding: 10px;
+  padding: 10px 10px 0;
+  text-align: right;
+  background-color: #668f80;
 }
 
 .about-us--title--name {
-  text-align: center;
   font-family: Meow Script;
   font-size: 2.5rem;
   color: #4A6670;
 }
 
 .about-us--title--img {
-  width: 100%;
+  width: 25%;
+  object-fit: contain;
 }
+
+.about-us--title--text {
+  margin: 0px 4rem 0rem 4rem;
+}
+
+.about-us--title--sarka {
+  text-align: left;
+  background-color: #a0af84;
+}
+
 
 /* About Project */
 
@@ -169,11 +170,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 70px;
 }
 
 .AboutProject__title {
   max-width: 800px;
-  /* border: dotted black 1px; */
 }
 
 .about-project__container1,
@@ -185,11 +186,10 @@ main {
 }
 
 .about-project--name {
-  background-color: #A0AF84;
   width: 100%;
   text-align: center;
   font-size: 4.5rem;
-  color: #472836;
+  color: #320C40;
   font-family: Meow Script;
 }
 
@@ -203,4 +203,5 @@ main {
   width: 50%;
   height: 50%;
   text-align: justify;
+  color: #472836;
 }
