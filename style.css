@@ -37,7 +37,12 @@ body {
 }
 
 .menu--item {
-  text-decoration: none;
+  text-decoration: none; 
+  color: #4A6670; 
+}
+
+.menu--item a {
+  color: #4A6670; 
 }
 
 .menu--item:visited {
@@ -203,7 +208,7 @@ main {
 
 .about-project--name {
   width: 100%;
-  text-align: center;
+  text-align: start;
   font-size: 4.5rem;
   color: #320C40;
   font-family: Meow Script;
