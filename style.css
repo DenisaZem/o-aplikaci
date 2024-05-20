@@ -163,6 +163,9 @@ main {
 
 .about-us--title--text {
   margin: 0px 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-us--title--sarka {
